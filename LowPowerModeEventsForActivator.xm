@@ -14,9 +14,9 @@
 
 static long long previous_state = 0;
 
-static NSString *LowPowerModeChanged = @"Low Power Mode changed";
-static NSString *LowPowerModeEnabled = @"Low Power Mode enabled";
-static NSString *LowPowerModeDisabled = @"Low Power Mode disabled";
+static NSString *LowPowerModeChanged = @"com.tomaszpoliszuk.lowpowermodeeventsforactivator.changed";
+static NSString *LowPowerModeEnabled = @"com.tomaszpoliszuk.lowpowermodeeventsforactivator.enabled";
+static NSString *LowPowerModeDisabled = @"com.tomaszpoliszuk.lowpowermodeeventsforactivator.disabled";
 
 @interface LowPowerModeDataSource : NSObject <LAEventDataSource>
 + (id)sharedInstance;
